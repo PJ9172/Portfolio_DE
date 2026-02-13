@@ -59,6 +59,8 @@ export const Navbar = () => {
                     ))}
                     <a
                         href="/resume.pdf"
+                        target="_blank"
+                        rel="noopener noreferrer"
                         className="px-4 py-2 text-sm font-medium text-zinc-900 bg-cyan-500 rounded-full hover:bg-cyan-400 transition-colors"
                     >
                         Resume
@@ -95,6 +97,8 @@ export const Navbar = () => {
                         ))}
                         <a
                             href="/resume.pdf"
+                            target="_blank"
+                            rel="noopener noreferrer"
                             className="px-4 py-2 text-center font-medium text-zinc-900 bg-cyan-500 rounded-lg hover:bg-cyan-400 transition-colors"
                         >
                             Download Resume

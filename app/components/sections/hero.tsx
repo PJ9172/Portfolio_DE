@@ -70,12 +70,12 @@ export const Hero = () => {
                         <motion.div
                             animate={{ rotate: 360 }}
                             transition={{ duration: 20, repeat: Infinity, ease: "linear" }}
-                            className="absolute inset-0 border border-zinc-800 rounded-full border-dashed"
+                            className="absolute inset-0 border-2 border-cyan-600/40 rounded-full border-dashed shadow-[0_0_15px_rgba(8,145,178,0.3)]"
                         />
                         <motion.div
                             animate={{ rotate: -360 }}
                             transition={{ duration: 30, repeat: Infinity, ease: "linear" }}
-                            className="absolute inset-12 border border-cyan-900/30 rounded-full border-dashed"
+                            className="absolute inset-12 border-2 border-blue-500/50 rounded-full border-dashed shadow-[0_0_20px_rgba(59,130,246,0.4)]"
                         />
 
                         {/* Floating Icons */}

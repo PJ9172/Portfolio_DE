@@ -26,8 +26,8 @@ export const portfolioData = {
             category: "Data Engineering",
             items: [
                 { name: "Apache Spark", icon: LineChart },
-                { name: "Delta Lake", icon: Layers },
-                { name: "Databricks", icon: Database },
+                { name: "Delta Lake", icon: Database },
+                { name: "Databricks", icon: Layers },
                 { name: "ETL/ELT Pipelines", icon: Server },
             ]
         },
@@ -70,18 +70,18 @@ export const portfolioData = {
         },
         {
             id: 2,
-            role: "Databricks Certified Data Engineer Associate",
+            role: "Databricks Fundamentals Accreditation",
             company: "Databricks",
-            period: "2024",
-            description: "Professional certification validating expertise in Databricks Lakehouse Platform and Data Engineering tasks.",
+            period: "2025",
+            description: "Fundamental knowledge of the Databricks Lakehouse Platform.",
             type: "certification"
         },
         {
             id: 3,
-            role: "Databricks Fundamentals Accreditation",
+            role: "Databricks Certified Data Engineer Associate",
             company: "Databricks",
-            period: "2024",
-            description: "Fundamental knowledge of the Databricks Lakehouse Platform.",
+            period: "2025",
+            description: "Professional certification validating expertise in Databricks Lakehouse Platform and Data Engineering tasks.",
             type: "certification"
         }
     ],
