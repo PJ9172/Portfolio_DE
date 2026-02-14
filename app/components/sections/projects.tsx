@@ -62,9 +62,14 @@ export const Projects = () => {
             </div>
 
             <div className="text-center mt-12">
-                <Button variant="outline" className="rounded-full">
-                    View GitHub Profile
-                </Button>
+                <Link href="https://github.com/PJ9172" target="_blank" rel="noopener noreferrer">
+                    <Button
+                        variant="outline"
+                        className="rounded-full transition-all duration-300 hover:scale-105 hover:shadow-[0_0_20px_rgba(34,211,238,0.5)] hover:border-cyan-400 hover:text-cyan-400 hover:bg-cyan-400/10"
+                    >
+                        View GitHub Profile
+                    </Button>
+                </Link>
             </div>
         </Section>
     );
